@@ -1,0 +1,55 @@
+# OSX
+
+.DS_Store
+*.xcworkspace
+
+
+# Xcode
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+
+# Cocoapods
+
+Pods
+
+
+# Fastlane
+
+# fastlane specific
+fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots
+
+# scan temporary files
+fastlane/test_output
+
+node_modules/
+assets/
+assets/drawable/
+
+*.jsbundle
+
+*.meta
